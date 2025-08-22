@@ -1,0 +1,280 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#article",
+      "isPartOf": {
+        "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/"
+      },
+      "author": {
+        "name": "Tieghan Gerard",
+        "@id": "https://www.halfbakedharvest.com/#/schema/person/9b2904ad2a2c76cbcd62517659d460f7"
+      },
+      "headline": "Bourbon Pecan Cherry Hand Pies.",
+      "datePublished": "2018-06-26T08:00:55+00:00",
+      "dateModified": "2018-07-12T14:10:59+00:00",
+      "wordCount": 1228,
+      "commentCount": 41,
+      "publisher": {
+        "@id": "https://www.halfbakedharvest.com/#organization"
+      },
+      "image": {
+        "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.halfbakedharvest.com/wp-content/uploads/2018/06/Bourbon-Pecan-Cherry-Hand-Pies-6.jpg",
+      "keywords": [
+        "4th of July",
+        "cherries",
+        "cherry",
+        "Easy",
+        "entertaining",
+        "fruit",
+        "gatherings",
+        "parties",
+        "summer",
+        "summer recipes"
+      ],
+      "articleSection": [
+        "American",
+        "Cuisine + Inspiration",
+        "Desserts",
+        "Holidays + Seasonal",
+        "Pie",
+        "Recipes",
+        "Summer",
+        "Type of Meal"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#respond"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/",
+      "url": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/",
+      "name": "Bourbon Pecan Cherry Hand Pies. - Half Baked Harvest",
+      "isPartOf": {
+        "@id": "https://www.halfbakedharvest.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#primaryimage"
+      },
+      "image": {
+        "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.halfbakedharvest.com/wp-content/uploads/2018/06/Bourbon-Pecan-Cherry-Hand-Pies-6.jpg",
+      "datePublished": "2018-06-26T08:00:55+00:00",
+      "dateModified": "2018-07-12T14:10:59+00:00",
+      "description": "Fresh summer cherries made into a sweet cherry-blueberry jam and wrapped up in flakey, buttery pecan pie dough. These cherry pies are not average cherry pie...they are so much better. Perfect summer dessert to go along with a scoop of vanilla ice cream!",
+      "breadcrumb": {
+        "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#primaryimage",
+      "url": "https://www.halfbakedharvest.com/wp-content/uploads/2018/06/Bourbon-Pecan-Cherry-Hand-Pies-6.jpg",
+      "contentUrl": "https://www.halfbakedharvest.com/wp-content/uploads/2018/06/Bourbon-Pecan-Cherry-Hand-Pies-6.jpg",
+      "width": 1000,
+      "height": 1500,
+      "caption": "Bourbon Pecan Cherry Hand Pies | halfbakedharvest.com #pie #cherries #4thofjulyrecipes #easy"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.halfbakedharvest.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Recipes",
+          "item": "https://www.halfbakedharvest.com/category/recipes/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bourbon Pecan Cherry Hand Pies."
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.halfbakedharvest.com/#website",
+      "url": "https://www.halfbakedharvest.com/",
+      "name": "Half Baked Harvest",
+      "description": "Made with Love",
+      "publisher": {
+        "@id": "https://www.halfbakedharvest.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.halfbakedharvest.com/?s={search_term_string}"
+          },
+          "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+          }
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.halfbakedharvest.com/#organization",
+      "name": "Half Baked Harvest",
+      "url": "https://www.halfbakedharvest.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://www.halfbakedharvest.com/#/schema/logo/image/",
+        "url": "https://www.halfbakedharvest.com/wp-content/uploads/2019/05/half-baked-harvest-square-logo.png",
+        "contentUrl": "https://www.halfbakedharvest.com/wp-content/uploads/2019/05/half-baked-harvest-square-logo.png",
+        "width": 600,
+        "height": 600,
+        "caption": "Half Baked Harvest"
+      },
+      "image": {
+        "@id": "https://www.halfbakedharvest.com/#/schema/logo/image/"
+      },
+      "sameAs": [
+        "https://www.facebook.com/hbharvest",
+        "https://x.com/hbharvest",
+        "http://instagram.com/halfbakedharvest",
+        "https://pinterest.com/hbharvest/",
+        "https://www.youtube.com/user/tieghangerard/videos"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.halfbakedharvest.com/#/schema/person/9b2904ad2a2c76cbcd62517659d460f7",
+      "name": "Tieghan Gerard",
+      "image": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://www.halfbakedharvest.com/#/schema/person/image/",
+        "url": "https://secure.gravatar.com/avatar/7036495bc5ea357403212cff0b64834c57cfbd3ed04ba77bfdf88b1b027f1d84?s=96&d=mm&r=pg",
+        "contentUrl": "https://secure.gravatar.com/avatar/7036495bc5ea357403212cff0b64834c57cfbd3ed04ba77bfdf88b1b027f1d84?s=96&d=mm&r=pg",
+        "caption": "Tieghan Gerard"
+      },
+      "sameAs": [
+        "https://www.halfbakedharvest.com/meet-tieghan/"
+      ]
+    },
+    {
+      "@type": "Recipe",
+      "name": "Bourbon Pecan Cherry Hand Pies",
+      "author": {
+        "@id": "https://www.halfbakedharvest.com/#/schema/person/9b2904ad2a2c76cbcd62517659d460f7"
+      },
+      "description": "Fresh summer cherries made into a sweet cherry-blueberry jam and wrapped up in flakey, buttery pecan pie dough. These cherry pies are not average cherry pie...they are so much better. Perfect summer dessert to go along with a scoop of vanilla ice cream.",
+      "datePublished": "2018-06-26T02:00:55+00:00",
+      "image": [
+        "https://www.halfbakedharvest.com/wp-content/uploads/2018/06/Bourbon-Pecan-Cherry-Hand-Pies-6.jpg",
+        "https://www.halfbakedharvest.com/wp-content/uploads/2018/06/Bourbon-Pecan-Cherry-Hand-Pies-6-500x500.jpg",
+        "https://www.halfbakedharvest.com/wp-content/uploads/2018/06/Bourbon-Pecan-Cherry-Hand-Pies-6-500x375.jpg",
+        "https://www.halfbakedharvest.com/wp-content/uploads/2018/06/Bourbon-Pecan-Cherry-Hand-Pies-6-480x270.jpg"
+      ],
+      "recipeYield": [
+        "16",
+        "16 pies"
+      ],
+      "prepTime": "PT30M",
+      "cookTime": "PT30M",
+      "totalTime": "PT60M",
+      "recipeIngredient": [
+        "3-4 cups fresh cherries, pitted",
+        "1/2 cup granulated sugar",
+        "2 teaspoons lemon juice",
+        "1 cup fresh blueberries",
+        "1-2 tablespoons bourbon",
+        "2 1/2 cups all-purpose flour, plus more for rolling",
+        "3/4 cup finely ground toasted pecans",
+        "1 cup (2 sticks) chilled salted butter, cut into pieces",
+        "1/3 cup ice water, plus more if needed",
+        "1  whole egg, beaten",
+        "coarse sugar, for sprinkling"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "1. In a medium saucepan, bring the cherries, sugar, lemon juice, and 2 tablespoons water to a boil over high heat. Once boiling use a potato masher or fork to break down and mash the cherries. Continue to cook for 8-10 minutes or until the jam has reduced and thickened by 1/3.&nbsp;Stir in the blueberries and cook another 5 minutes.2. Remove from the heat and stir in the bourbon. Let cool completely before filling.&nbsp;3. To make the crust. Add the flour pecans and butter to a food processor and pulse until the mixture is combined and resembles peas. Add the ice water and mix with a wooden spoon, drizzling in more water as needed (no more than 1 tablespoon at a time), until dough just comes together (a few dry spots are ok).4. Divide the dough in half. Shape each piece into a circular disk. At this point you can cover the dough and place it in the fridge for up to one week OR continue on with the recipe...yes, no chilling needed!5.&nbsp;Roll the dough out into a 1/8-inch thickness. Cut the dough into rectangles, about 6 1/2 x 4 1/2 inches. If desired, use a small star cookie cutter to cut stars out of half of the rectangles (see above photo).&nbsp;6. Place a tablespoon of jam on one half of the rectangle. Lay the other half of the dough over the filling and seal the edges by crimping with the back of a fork. Repeat until you have used all the dough, you may have leftover jam. Place the pies on parchment lined baking sheets. Cover the baking sheets and place in the freezer for 20-30 minutes to chill.7. Preheat the oven to 375 degrees F.&nbsp;Brush the pies with the beaten egg and sprinkle with the coarse sugar. Bake 15-20 minutes&nbsp;or until golden in color. Serve warm or at room temperature.",
+          "name": "1. In a medium saucepan, bring the cherries, sugar, lemon juice, and 2 tablespoons water to a boil over high heat. Once boiling use a potato masher or fork to break down and mash the cherries. Continue to cook for 8-10 minutes or until the jam has reduced and thickened by 1/3.&nbsp;Stir in the blueberries and cook another 5 minutes.2. Remove from the heat and stir in the bourbon. Let cool completely before filling.&nbsp;3. To make the crust. Add the flour pecans and butter to a food processor and pulse until the mixture is combined and resembles peas. Add the ice water and mix with a wooden spoon, drizzling in more water as needed (no more than 1 tablespoon at a time), until dough just comes together (a few dry spots are ok).4. Divide the dough in half. Shape each piece into a circular disk. At this point you can cover the dough and place it in the fridge for up to one week OR continue on with the recipe...yes, no chilling needed!5.&nbsp;Roll the dough out into a 1/8-inch thickness. Cut the dough into rectangles, about 6 1/2 x 4 1/2 inches. If desired, use a small star cookie cutter to cut stars out of half of the rectangles (see above photo).&nbsp;6. Place a tablespoon of jam on one half of the rectangle. Lay the other half of the dough over the filling and seal the edges by crimping with the back of a fork. Repeat until you have used all the dough, you may have leftover jam. Place the pies on parchment lined baking sheets. Cover the baking sheets and place in the freezer for 20-30 minutes to chill.7. Preheat the oven to 375 degrees F.&nbsp;Brush the pies with the beaten egg and sprinkle with the coarse sugar. Bake 15-20 minutes&nbsp;or until golden in color. Serve warm or at room temperature.",
+          "url": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#wprm-recipe-64490-step-0-0"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.47",
+        "ratingCount": "28",
+        "reviewCount": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Hi Tieghan, I tried the recipe today! I screwed a few things up (just user error having never made pie-type dough before) and even though they are not pretty, they sure are delicious! Thanks for your response!",
+          "author": {
+            "@type": "Person",
+            "name": "Bri Morris"
+          },
+          "datePublished": "2022-07-12"
+        }
+      ],
+      "recipeCategory": [
+        "Dessert"
+      ],
+      "recipeCuisine": [
+        "American"
+      ],
+      "keywords": "bourbon and cherry, cherry pie",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "137 kcal",
+        "carbohydrateContent": "27 g",
+        "proteinContent": "3 g",
+        "fatContent": "15 g",
+        "saturatedFatContent": "7 g",
+        "cholesterolContent": "40 mg",
+        "sodiumContent": "106 mg",
+        "fiberContent": "1 g",
+        "sugarContent": "11 g",
+        "servingSize": "1 serving"
+      },
+      "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#recipe",
+      "isPartOf": {
+        "@id": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/#article"
+      },
+      "mainEntityOfPage": "https://www.halfbakedharvest.com/bourbon-pecan-cherry-hand-pies/"
+    }
+  ]
+}
