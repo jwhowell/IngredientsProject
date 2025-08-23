@@ -9,3 +9,9 @@ The base site is an xml map with sub xml site maps
 3. determine if link is recipe or not
 4. if it is a recipe pull data for analysis (at this point we are only interested in inredients)
 5. create csv file
+
+## Dependancies:
+* Requests
+* bs4
+* pandas
+* lxml
