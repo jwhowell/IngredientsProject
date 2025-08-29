@@ -46,17 +46,25 @@ for url in links[0]:
     scripts = soup.find("script", type = "application/ld+json")
     try:
         data = json.loads(scripts.string)
-    except AttributeError:
-        errlog.append(url)
-        continue
-    info = data["@graph"][0]
-    headline = info["headline"]
-    keywords = info["keywords"]
-    date_published = info["datePublished"]
+        info = data["@graph"][0]
+        headline = info["headline"]
+        keywords = info["keywords"]
+        date_published = info["datePublished"]
 
-    ingredients = soup.find_all("span", class_ = "wprm-recipe-ingredient-name")
-    ingredient_list = [span.get_text(strip=True) for span in ingredients]
-    
+        ingredients = soup.find_all("span", class_ = "wprm-recipe-ingredient-name")
+        ingredient_list = [span.get_text(strip=True) for span in ingredients]
+
+    except AttributeError:
+        errlog.append([url, "AttributeError"])
+        continue
+
+    except KeyError:
+        errlog.append([url, "KeyError"])
+        continue
+      
+    if ingredient_list == []:
+        continue
+
     if url not in df['url']: 
         df.loc[len(df)] = [headline, date_published, url, ingredient_list, keywords]
 
